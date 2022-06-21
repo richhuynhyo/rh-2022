@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Rich Huynh - Designer + Developer">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Rich Huynh - Creative Designer</title>
+		<link rel="shortcut icon" type="image/jpg" href="img/rh-favicon.png"/>
+
+
+		<link type="text/css" rel="stylesheet" href="css/font-awesome/font-awesome.css" />
+
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<link type="text/css" rel="stylesheet" href="css/work.css" />
+
+		<!--Three-->
+		<script src="js/renderModel.js" type="module"></script>
+
+		<!--Animate Css-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<style>
+		:root {
+		  --animate-delay: 0.025s;
+		}
+		</style>
+	</head>
+	<body>
+
+
+			<header>
+				<div class="outer clearfix intro-h1 animate__animated animate__fadeInDown animate__delay-2s">
+					<nav>
+						<a class="name" href="#">Rich Huynh</a>
+						<ul>
+							<li>
+								<button class="topnav-link" onclick="pageScrollTo('#home-work');">Work</button>
+							</li>
+							<li>
+								<a class="topnav-link" href="https://www.linkedin.com/in/richhuynh">LinkedIn</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+
+
+
+
+			<main>
+				<div class="outer">
+					<div id="home-intro">
+						<h1>
+							<span class="intro-h1 animate__animated animate__fadeInLeft animate__delay-2s">Draw</span>
+							<span class="intro-h1 animate__animated animate__fadeInLeft animate__delay-3s">Design</span>
+							<span class="intro-h1 animate__animated animate__fadeInLeft animate__delay-4s">Develop</span>
+						</h1>
+						<div class="intro-divider animate__animated animate__fadeInLeft animate__delay-5s">
+							<button onclick="openDrum();">Sometimes Drum </button>
+
+							<div class="h-line ">
+								<div id="drum-clip">
+									<img src="img/drum.gif" alt="Rich Huynh spinning drumstick on stage." />
+								</div>
+
+							</div>
+
+						</div>
+						<p class="animate__animated animate__fadeInLeft animate__delay-4s">
+							<strong>I am Rich Huynh</strong>, a multidisciplinary designer with a background in
+							web development, digital marketing, and e-commerce. I am an artist at heart, a big picture thinker, a humanist, and a creative scholar.
+							I enjoy exploring new technologies and mediums for artistic expression.
+
+
+
+
+						</p>
+					</div>
+				</div>
+
+				<div id="home-visual">
+					<div class="outer">
+						<div class="text-overlay">
+							ART +<br />
+							TECHNOLOGY
+						</div>
+					</div>
+					<div id="canvas_wrap">
+						<canvas id="canvas_3d" ></canvas>
+					</div>
+				</div>
+
+				<div id="work" class="outer">
+					<div id="home-work">
+						<h2>
+							Work
+						</h2>
+						<div class="portfolio-wrap">
+							<ul class="work-list">
+								<li class="work-box">
+									<a href="work/edf">
+										<div class="work-image" style="background-image:url('img/gallery/edf.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">Concept Marketing Web Design - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Earth Defense Force 5</h3>
+										<p>Web Marketing Concept</p>
+										<ul class="role-list">
+											<li>Visual Design</li>
+											<li>Web Design</li>
+											<li>Marketing</li>
+										</ul>
+									</div>
+								</li>
+
+
+								<li class="work-box">
+									<a href="work/msi_creator">
+										<div class="work-image" style="background-image:url('img/gallery/msi_creator.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">Imagine & Create - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Imagine & Create</h3>
+										<p>Product Marketing Web Design</p>
+										<ul class="role-list">
+											<li>Web Design</li>
+											<li>Visual Design</li>
+											<li>HTML/CSS/JS</li>
+										</ul>
+									</div>
+								</li>
+
+								<li class="work-box">
+									<a href="work/shiba">
+										<div class="work-image" style="background-image:url('img/gallery/shiba.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">SHIBA - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>SHIBA</h3>
+										<p>Monster Movie Poster</p>
+										<ul class="role-list">
+											<li>Key Visual</li>
+											<li>Graphic Design</li>
+											<li>3D Composition</li>
+										</ul>
+									</div>
+								</li>
+
+
+								<li class="work-box">
+									<a href="work/msi_brighter_future">
+										<div class="work-image" style="background-image:url('img/gallery/brighter_future.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">Brighter Future for Gaming - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Brighter Future For Gaming</h3>
+										<p>Landing Page</p>
+										<ul class="role-list">
+											<li>Key Visual</li>
+											<li>Web Design</li>
+											<li>HTML/CSS/JS</li>
+										</ul>
+									</div>
+								</li>
+
+								<li class="work-box">
+									<a href="work/msi_dribble">
+										<div class="work-image" style="background-image:url('img/gallery/msi_dribble.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">MSI Creator Animated Dribble Ad - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>MSI Creator</h3>
+										<p>Dribble Animated Ad</p>
+										<ul class="role-list">
+											<li>Art Direction</li>
+											<li>Video Composition</li>
+											<li>Motion Design</li>
+										</ul>
+									</div>
+								</li>
+
+
+								<li class="work-box">
+									<a href="work/msi_brand_store">
+										<div class="work-image" style="background-image:url('img/gallery/msi_brand_store.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">MSI Brand Store - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>MSI Brand Store</h3>
+										<p>E-Commerce - Amazon Vendor</p>
+										<ul class="role-list">
+											<li>Creative Direction</li>
+											<li>Art Direction</li>
+											<li>Branding</li>
+										</ul>
+									</div>
+								</li>
+								<li class="work-box">
+									<a href="work/msi_public_domain">
+										<div class="work-image" style="background-image:url('img/gallery/april_fools.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">MSI x Public Domain - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>MSI x Public Domain</h3>
+										<p>April Fool's Social Campaign</p>
+										<ul class="role-list">
+											<li>Creative Direction</li>
+											<li>Graphic Design</li>
+											<li>Photo Manipulation</li>
+										</ul>
+									</div>
+								</li>
+
+								<li class="work-box">
+									<a href="work/msi_2021">
+										<div class="work-image" style="background-image:url('img/gallery/msi_2021.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">2021 MSI Graphics - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>2021 MSI Graphics</h3>
+										<p>Web & Print - Assorted</p>
+										<ul class="role-list">
+											<li>Key Visual</li>
+											<li>Graphic Design</li>
+											<li>Photo Manipulation</li>
+										</ul>
+									</div>
+								</li>
+
+								<li class="work-box">
+									<a href="work/msi_optix">
+										<div class="work-image" style="background-image:url('img/gallery/msi_optix.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">MSI Optix MPG321QRF-QD - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Optix MPG321QRF-QD</h3>
+										<p>Etailer A+ Content</p>
+										<ul class="role-list">
+											<li>Key Visual</li>
+											<li>Graphic Design</li>
+											<li>Photo Manipulation</li>
+										</ul>
+									</div>
+								</li>
+
+								<li class="work-box">
+									<a href="work/msi_oled">
+										<div class="work-image" style="background-image:url('img/gallery/msi_oled.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">Creator 15 OLED Video Social Posts - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Creator 15 OLED</h3>
+										<p>Video Social Posts</p>
+										<ul class="role-list">
+											<li>Visual Effects</li>
+											<li>Motion Graphics</li>
+										</ul>
+									</div>
+								</li>
+								<li class="work-box">
+									<a href="work/study_play">
+										<div class="work-image" style="background-image:url('img/gallery/study_and_play.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">Study & Play - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Study & Play</h3>
+										<p>Promotional Campaign</p>
+										<ul class="role-list">
+											<li>Illustration</li>
+											<li>Web Design</li>
+											<li>HTML/CSS/JS</li>
+										</ul>
+									</div>
+								</li>
+
+
+
+								<li class="work-box">
+									<a href="work/msi_rent">
+										<div class="work-image" style="background-image:url('img/gallery/msi_rent.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">MSI Rent To Own - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>MSI Rent To Own</h3>
+										<p>Landing Page</p>
+										<ul class="role-list">
+											<li>Web Design</li>
+											<li>HTML/CSS</li>
+											<li>Javascript</li>
+										</ul>
+									</div>
+								</li>
+
+	<!--
+								<li class="work-box">
+									<a href="work/msi_yuumei">
+										<div class="work-image" style="background-image:url('img/gallery/msi_yuumei.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">MSI x Yuumei Charity Collaboration - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>MSI x Yuumei</h3>
+										<p>Charity Collaboration</p>
+										<ul class="role-list">
+											<li>Web Design</li>
+											<li>HTML/CSS/JS</li>
+										</ul>
+									</div>
+								</li>
+
+
+	-->
+
+								<li class="work-box">
+									<a href="work/reach_brand">
+										<div class="work-image" style="background-image:url('img/gallery/reach.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">REACH Foster Youth - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>REACH Foster Youth</h3>
+										<p>Brand & Marketing</p>
+										<ul class="role-list">
+											<li>Branding</li>
+											<li>Typography</li>
+											<li>Print Design</li>
+										</ul>
+									</div>
+								</li>
+
+								<li class="work-box">
+									<a href="work/eon">
+										<div class="work-image" style="background-image:url('img/gallery/eon.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">Eon Digital Illustration - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Eon</h3>
+										<p>Digital Illustration</p>
+										<ul class="role-list">
+											<li>Illustration</li>
+											<li>Photo Manipulation</li>
+										</ul>
+									</div>
+								</li>
+
+								<li class="work-box">
+									<a href="work/dtoid">
+										<div class="work-image" style="background-image:url('img/gallery/dtoid.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">+1 Str Fitness - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Destructoid +1 Str Fitness</h3>
+										<p>Content Creation</p>
+										<ul class="role-list">
+											<li>Director</li>
+											<li>Camera Operator</li>
+											<li>Motion Graphics</li>
+										</ul>
+									</div>
+								</li>
+
+								<li class="work-box">
+									<a href="work/kf_skins">
+										<div class="work-image" style="background-image:url('img/gallery/kf_skins.jpg')" aria-hidden="true"></div>
+										<span class="sr-only">+1 Str Fitness - Learn More</span>
+									</a>
+									<div class="work-info">
+										<h3>Killing Floor 2 - Weapon Skins</h3>
+										<p>Steam Workshop</p>
+										<ul class="role-list">
+											<li>Illustration</li>
+											<li>3D Texture</li>
+											<li>Unreal Editor</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</main>
+
+
+			<footer>
+				<div class="outer">
+					<nav>
+						<ul>
+							<li>
+								<a target="_blank" href="https://www.linkedin.com/in/richhuynh">
+									<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://github.com/richhuynhyo">
+									<i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</footer>
+
+
+
+		<!--JS-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>-->
+		<script src="js/hammer-time/hammer-time.min.js"></script>
+
+
+		<!--Site JS-->
+		<script type="text/javascript" src="js/site.js"></script>
+	</body>
+</html>
